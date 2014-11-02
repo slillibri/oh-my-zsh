@@ -44,3 +44,7 @@ fi
 if [ -f ~/.aws_profile ]; then
   source ~/.aws_profile
 fi
+
+if [ -f ~/.local ]; then
+  source ~/.local
+fi
